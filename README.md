@@ -1,5 +1,4 @@
-Tracking Gem
-============
+# Tracking Gem
 
 Gem for generating example in-app tracking events.
 
@@ -8,8 +7,7 @@ there these can be extended with new events however correspondingly,
 need to extend [consumers](https://github.com/adtekio/consumers) to use new
 events.
 
-Using
------
+## Using
 
 In the gemfile:
 
@@ -43,3 +41,7 @@ AdtekioTracking::Events.new.
 ```
 
 as found [here](https://github.com/adtekio/consumers/blob/master/lib/consumers/attribution.rb#L49-L50).
+
+## Travis
+
+[![Build Status](https://travis-ci.org/adtekio/tracking.gem.svg?branch=master)](https://travis-ci.org/adtekio/tracking.gem)
